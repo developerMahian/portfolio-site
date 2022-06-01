@@ -13,13 +13,9 @@ const App = () => {
   useEffect(() => {
     const rootEl = document.querySelector("html");
 
-    const theme: string = darkModeOn ? "halloween" : "lemonade";
+    rootEl?.setAttribute("data-theme", darkModeOn ? "halloween" : "lemonade");
 
-    rootEl?.setAttribute("data-theme", theme);
-
-    rootEl?.classList.contains("dark")
-      ? rootEl?.classList.remove("dark")
-      : rootEl?.classList.add("dark");
+    rootEl?.classList.add(darkModeOn ? "dark" : "light");
   }, [darkModeOn]);
 
   return (

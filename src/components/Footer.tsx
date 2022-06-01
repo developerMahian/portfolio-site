@@ -11,7 +11,7 @@ const Footer = () => {
           title="Github"
         >
           <FaGithub
-            className={`${socialIconClasses} !text-black dark:!text-gray-50 !border-black dark:!border-gray-50`}
+            className={`${socialIconClasses} text-[#111] dark:text-gray-50 border-[#111] dark:border-gray-50`}
           />
         </a>
         <a
@@ -55,6 +55,6 @@ const Footer = () => {
 };
 
 const socialIconClasses =
-  "text-xl border-[3px] rounded-full p-[5px] box-content opacity-80 hover:opacity-100 hover:-translate-y-1 hover:!text-primary hover:!border-primary hover:dark:!text-primary hover:dark:!border-primary transition duration-300";
+  "text-xl border-[3px] rounded-full p-[5px] box-content opacity-80 hover:opacity-100 hover:-translate-y-1 hover:!text-primary hover:!border-primary transition duration-300";
 
 export default Footer;
