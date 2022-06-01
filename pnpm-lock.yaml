@@ -3,8 +3,10 @@ lockfileVersion: 5.4
 specifiers:
   '@react-three/drei': ^9.5.4
   '@react-three/fiber': ^8.0.12
+  '@types/node': ^17.0.38
   '@types/react': ^18.0.0
   '@types/react-dom': ^18.0.0
+  '@types/react-typing-effect': ^2.0.3
   '@types/three': ^0.139.0
   '@vitejs/plugin-react': ^1.3.0
   autoprefixer: ^10.4.5
@@ -14,7 +16,6 @@ specifiers:
   react: ^18.0.0
   react-dom: ^18.0.0
   react-icons: ^4.3.1
-  react-reveal: ^1.2.2
   react-router-dom: '6'
   react-typing-effect: ^2.0.5
   tailwindcss: ^3.0.24
@@ -31,15 +32,16 @@ dependencies:
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
   react-icons: 4.3.1_react@18.1.0
-  react-reveal: 1.2.2_react@18.1.0
   react-router-dom: 6.3.0_ef5jwxihqo6n7gxfmzogljlgcm
   react-typing-effect: 2.0.5
   three: 0.139.2
   three-stdlib: 2.10.0_three@0.139.2
 
 devDependencies:
+  '@types/node': 17.0.38
   '@types/react': 18.0.8
   '@types/react-dom': 18.0.0
+  '@types/react-typing-effect': 2.0.3
   '@types/three': 0.139.0
   '@vitejs/plugin-react': 1.3.1
   autoprefixer: 10.4.5_postcss@8.4.12
@@ -537,6 +539,10 @@ packages:
       nanoid: 3.3.3
     dev: false
 
+  /@types/node/17.0.38:
+    resolution: {integrity: sha512-5jY9RhV7c0Z4Jy09G+NIDTsCZ5G0L5n+Z+p+Y7t5VJHM30bgwzSjVtlcBxqAj+6L/swIlvtOSzr8rBk/aNyV2g==}
+    dev: true
+
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
@@ -551,6 +557,12 @@ packages:
     dependencies:
       '@types/react': 18.0.8
     dev: false
+
+  /@types/react-typing-effect/2.0.3:
+    resolution: {integrity: sha512-H8DtQh/3DhyDzzO1wW8yd2oJvbaGY8lT9HN1qEYdQXqRx2+dObhC2GWl/6i5dPFZ+mVSVZ0DpNpi0/zSTrbxIw==}
+    dependencies:
+      '@types/react': 18.0.8
+    dev: true
 
   /@types/react/18.0.8:
     resolution: {integrity: sha512-+j2hk9BzCOrrOSJASi5XiOyBbERk9jG5O73Ya4M0env5Ixi6vUNli4qy994AINcEF+1IEHISYFfIT4zwr++LKw==}
@@ -1475,15 +1487,6 @@ packages:
     resolution: {integrity: sha512-suLIhrU2IHKL5JEKR/fAwJv7bbeq4kJ+pJopf77jHwuR+HmJS/HbrPIGsTBUVfw7tXPOmYv7UJ7PCaN49e8x4A==}
     engines: {node: '>=0.10.0'}
     dev: true
-
-  /react-reveal/1.2.2_react@18.1.0:
-    resolution: {integrity: sha512-JCv3fAoU6Z+Lcd8U48bwzm4pMZ79qsedSXYwpwt6lJNtj/v5nKJYZZbw3yhaQPPgYePo3Y0NOCoYOq/jcsisuw==}
-    peerDependencies:
-      react: ^15.3.0 || ^16.0.0
-    dependencies:
-      prop-types: 15.8.1
-      react: 18.1.0
-    dev: false
 
   /react-router-dom/6.3.0_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-uaJj7LKytRxZNQV8+RbzJWnJ8K2nPsOOEuX7aQstlMZKQT0164C+X2w6bnkqU3sjtLvpd5ojrezAyfZ1+0sStw==}

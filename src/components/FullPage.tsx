@@ -5,7 +5,11 @@ import Contact from "../screens/Contact";
 import Footer from "./Footer";
 
 const Fullpage = () => (
-  <div className="overflow-x-hidden tracking-wider selection:bg-primary selection:bg-opacity-50 debug-screens">
+  <div
+    className={`overflow-x-hidden tracking-wider selection:bg-primary selection:bg-opacity-50 ${
+      process.env.NODE_ENV !== "production" && "debug-screens"
+    }`}
+  >
     <main
       className="max-h-screen snap-y snap-mandatory overflow-y-auto overflow-x-hidden"
       id="main-el"

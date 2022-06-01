@@ -16,9 +16,14 @@ const Contact = () => (
       Strapi, Stipe etc.
     </p>
 
-    <button className="px-8 py-4 font-semibold tracking-wider duration-[400ms] text-base-content rounded-md hover:bg-primary/20 hover:scale-[0.975] transition border-2 border-primary/80 focus:outline-none focus:ring focus:ring-primary focus:ring-opacity-40">
+    <a
+      href="https://join.skype.com/invite/wecW1GItckDh"
+      target="_blank"
+      rel="noreferrer"
+      className="px-8 py-4 font-semibold tracking-wider duration-[400ms] text-base-content rounded-md hover:bg-primary/20 hover:scale-[0.975] transition border-2 border-primary/80 focus:outline-none focus:ring focus:ring-primary focus:ring-opacity-40"
+    >
       Knock me on Skype
-    </button>
+    </a>
   </div>
 );
 

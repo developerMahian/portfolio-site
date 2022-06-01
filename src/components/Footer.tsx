@@ -15,7 +15,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://github.com/developerMahian"
+          href="https://join.skype.com/invite/wecW1GItckDh"
           target="_blank"
           rel="noreferrer"
           title="Skype"
@@ -25,7 +25,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://github.com/developerMahian"
+          href="https://twitter.com/DeveloperMahian"
           target="_blank"
           rel="noreferrer"
           title="Twitter"

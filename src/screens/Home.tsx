@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { HiChevronDoubleDown } from "react-icons/hi";
 import ReactTypingEffect from "react-typing-effect";
+import { HiChevronDoubleDown } from "react-icons/hi";
 import ThreeDModel from "../components/threeDModel/ThreeDModel";
 
 const Home = () => {

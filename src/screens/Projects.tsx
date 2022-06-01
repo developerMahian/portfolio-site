@@ -8,7 +8,7 @@ const Projects = () => {
       </h1>
 
       <div className="max-w-[500px] sm:max-w-none mx-auto">
-        <div className="grid sm:grid-cols-2 gap-6 pb-40 lg:px-20">
+        <div className="grid sm:grid-cols-2 gap-6 pb-52 lg:px-20">
           <ProjectCard
             video="airhotel"
             title="Airbnb Clone"

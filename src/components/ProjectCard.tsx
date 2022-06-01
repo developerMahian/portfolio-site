@@ -46,8 +46,11 @@ const ProjectCard = (props: {
             {props.shortDesc}
           </p>
           <div className="flex flex-wrap gap-2">
-            {props.tools?.map((stack) => (
-              <span className="text-xs font-semibold text-gray-100 bg-gray-100/30 px-3 py-1 rounded-full hover:scale-110 transition-transform">
+            {props.tools?.map((stack, index) => (
+              <span
+                key={index}
+                className="text-xs font-semibold text-gray-100 bg-gray-100/30 px-3 py-1 rounded-full hover:scale-110 transition-transform"
+              >
                 {stack}
               </span>
             ))}
