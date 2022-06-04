@@ -18,6 +18,7 @@ const Projects = () => {
               "Tailwind",
               "React-Query",
               "Server Side Rendering",
+              "API Integration",
             ]}
           />
           <ProjectCard
@@ -35,7 +36,13 @@ const Projects = () => {
             video="cryptoverse"
             title="CryptoVerse"
             shortDesc="Get to know the latest trends of Cryptocurrencies around the Globe."
-            tools={["React", "Redux-Toolkit", "Ant-Design", "ChartJS"]}
+            tools={[
+              "React",
+              "Redux-Toolkit",
+              "API Integration",
+              "Ant-Design",
+              "ChartJS",
+            ]}
           />
           <ProjectCard
             video="gsearch"
@@ -44,9 +51,9 @@ const Projects = () => {
             tools={[
               "NextJS",
               "Tailwind",
-              "API Integration",
-              "Context API",
               "LightGallery",
+              "Context API",
+              "API Integration",
             ]}
           />
         </div>
