@@ -5,7 +5,7 @@
   <h1 align="center">Portfolio of Mahian Ahmed</h1>
 
   <p align="center">
-    Get to know the latest trends of Cryptocurrencies around the Globe. Visualize entire growth of different CryptoCoins through Graphs.
+    As a Digital Craftsman I love to craft fast, robust and scalable frontend products with greatly enhanced user experience. This amazing Portfolio site shocases my Frontend Development Skills to Potential Clients or Recruiters. 
     <br />
     <br />
     <a href="https://cryptoversereact.vercel.app/">View the Product live</a>
