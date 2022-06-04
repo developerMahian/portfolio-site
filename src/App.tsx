@@ -16,6 +16,7 @@ const App = () => {
     rootEl?.setAttribute("data-theme", darkModeOn ? "halloween" : "lemonade");
 
     rootEl?.classList.add(darkModeOn ? "dark" : "light");
+    rootEl?.classList.remove(!darkModeOn ? "dark" : "light");
   }, [darkModeOn]);
 
   return (

@@ -1,4 +1,4 @@
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const ProjectCard = (props: {
   video: string;
@@ -7,14 +7,26 @@ const ProjectCard = (props: {
   tools: string[];
 }) => {
   const projectUrl: any = {
-    airhotel: "https://airhotelclone.vercel.app/",
-    shoppydash: "https://shoppydash.vercel.app/",
-    cryptoverse: "https://cryptoversereact.vercel.app/",
-    gsearch: "https://greact.vercel.app/",
+    airhotel: {
+      siteUrl: "https://airhotelclone.vercel.app/",
+      sourceUrl: "https://github.com/developerMahian/Airbnb_Next_Clone",
+    },
+    shoppydash: {
+      siteUrl: "https://shoppydash.vercel.app/",
+      sourceUrl: "https://github.com/developerMahian/shoppydash",
+    },
+    cryptoverse: {
+      siteUrl: "https://cryptoversereact.vercel.app/",
+      sourceUrl: "https://github.com/developerMahian/React-Cryptocurrency-App",
+    },
+    gsearch: {
+      siteUrl: "https://greact.vercel.app/",
+      sourceUrl: "https://github.com/developerMahian/google-clone",
+    },
   };
 
   return (
-    <div className="relative flex w-full flex-col items-center justify-center mx-auto rounded-xl shadow-lg cursor-pointer overflow-hidden group">
+    <div className="relative flex w-full flex-col items-center justify-center mx-auto rounded-xl shadow-lg overflow-hidden group">
       <video
         playsInline
         autoPlay
@@ -34,14 +46,25 @@ const ProjectCard = (props: {
         />
 
         <div className="sm:translate-y-96 group-hover:sm:translate-y-0 transition-transform duration-300 z-10">
-          <a
-            href={projectUrl[props.video]}
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center gap-4 w-fit text-2xl font-bold text-gray-100 hover:underline underline-offset-4 mb-2"
-          >
-            {props.title} <FaExternalLinkAlt className="text-base" />
-          </a>
+          <h1 className="flex gap-6 items-center">
+            <a
+              href={projectUrl[props.video].siteUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-4 w-fit text-2xl font-bold text-gray-100 hover:underline underline-offset-4 mb-2"
+            >
+              {props.title} <FaExternalLinkAlt className="text-base" />
+            </a>
+
+            <a
+              href={projectUrl[props.video].sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub className="text-xl text-white hover:scale-125 transition-transform duration-200 -translate-y-1" />
+            </a>
+          </h1>
+
           <p className="text-sm font-medium text-gray-50 mb-6">
             {props.shortDesc}
           </p>

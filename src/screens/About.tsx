@@ -27,9 +27,9 @@ const About = () => {
               face of a website from replica into existence.
             </p>
             <p>
-              I currently work remotely with a selected freelance client base
-              being open for new opportunities. Crafting thoughtful and
-              inclusive experiences that adhere to web standards. In building
+              I currently work remotely on contract based projects. I'm also
+              open for new opportunities. Crafting thoughtful and inclusive
+              experiences that adhere to web standards. In the development of
               JavaScript applications, I'm equipped with just the right tools.{" "}
               <Strong>Performance</Strong> and <Strong>Scalabilty</Strong> are
               priorities on my radar.
