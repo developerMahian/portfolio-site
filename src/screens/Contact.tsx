@@ -1,19 +1,14 @@
 const Contact = () => (
-	<div className="text-center mt-20">
-		<div className="text-primary text-lg font-medium mb-3">
-			Want to Discuss your Project?
-		</div>
+	<div className="text-center mt-[10vh]">
+		<div className="text-primary text-md font-medium mb-4">Want to Discuss your Project?</div>
 
 		<div className="relative">
-			<h1 className="text-5xl font-extrabold mb-6 before:absolute">
-				Get In Touch
-			</h1>
+			<h1 className="text-5xl font-extrabold mb-8 before:absolute">Get In Touch</h1>
 		</div>
 
-		<p className="max-w-[600px] font-medium text-center mb-14 mx-auto leading-6 tracking-widest">
-			I'm available for a wide range of Frontend Projects. Anything from
-			Pure Javascript to React/NextJS and backend services such as
-			Firebase, Sanity, Strapi, Stipe etc.
+		<p className="max-w-[600px] font-medium text-center mb-14 mx-auto leading-8 tracking-widest">
+			I'm available for a wide range of Frontend Projects. Anything from Vanilla Javascript to Vue/NuxtJS, React/NextJS and backend services such as
+			Firebase, Supabase, Strapi, Stripe etc.
 		</p>
 
 		<a
