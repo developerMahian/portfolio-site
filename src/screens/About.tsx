@@ -29,35 +29,27 @@ const About = () => {
 				</div>
 				<div className="lg:w-3/5">
 					<div className="space-y-6 text-justify leading-7 text-base-content/90 font-medium">
-						<p>
-							I've built products for{" "}
-							<Strong>dozens of businesses</Strong> ranging from
-							marketing websites to complex apps with focus on
-							fast, elegant and accessible user experiences. I can
-							conjur the face of a website from replica into
-							existence.
+						<p className="text-xl font-semibold text-black">
+							Impact-Site-Verification: a3094016-18a2-4edb-b1e3-1850da01f7e6
 						</p>
 						<p>
-							I currently work remotely on contract based
-							projects. I'm also open for new opportunities.
-							Crafting thoughtful and inclusive experiences that
-							adhere to web standards. In the development of
-							JavaScript applications, I'm equipped with just the
-							right tools. <Strong>Performance</Strong> and{" "}
-							<Strong>Scalabilty</Strong> are priorities on my
-							radar.
+							I've built products for <Strong>dozens of businesses</Strong> ranging from marketing
+							websites to complex apps with focus on fast, elegant and accessible user experiences. I can
+							conjur the face of a website from replica into existence.
 						</p>
 						<p>
-							When it comes to business,{" "}
-							<Strong>first impressions matter</Strong>, and good
-							website design is the key to capitalizing on them.
-							An excellent site is not judged solely on its looks,
-							but on its <Strong>functionality</Strong> and{" "}
-							<Strong>usability</Strong> as well. My experience as
-							a programmer allows me to come up with{" "}
-							<Strong>intelligent solutions</Strong> to technical
-							challenges, while at the same time designing sleek
-							and visually appealing websites.
+							I currently work remotely on contract based projects. I'm also open for new opportunities.
+							Crafting thoughtful and inclusive experiences that adhere to web standards. In the
+							development of JavaScript applications, I'm equipped with just the right tools.{" "}
+							<Strong>Performance</Strong> and <Strong>Scalabilty</Strong> are priorities on my radar.
+						</p>
+						<p>
+							When it comes to business, <Strong>first impressions matter</Strong>, and good website
+							design is the key to capitalizing on them. An excellent site is not judged solely on its
+							looks, but on its <Strong>functionality</Strong> and <Strong>usability</Strong> as well. My
+							experience as a programmer allows me to come up with <Strong>intelligent solutions</Strong>{" "}
+							to technical challenges, while at the same time designing sleek and visually appealing
+							websites.
 						</p>
 					</div>
 				</div>

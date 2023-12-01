@@ -42,7 +42,8 @@ const Home = () => {
 				</h2>
 
 				<h3 className="sm:text-xl font-medium max-w-4xl">
-					As a Digital Craftsman I love to craft fast, robust and scalable frontend products with greatly enhanced user experience.
+					As a Digital Craftsman I love to craft fast, robust and scalable frontend products with greatly
+					enhanced user experience.
 				</h3>
 
 				<HiChevronDoubleDown className="mt-[70px] mx-auto text-3xl opacity-80 animate-bouncePing" />
