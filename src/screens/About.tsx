@@ -29,9 +29,6 @@ const About = () => {
 				</div>
 				<div className="lg:w-3/5">
 					<div className="space-y-6 text-justify leading-7 text-base-content/90 font-medium">
-						<p className="text-xl font-semibold text-black">
-							Impact-Site-Verification: a3094016-18a2-4edb-b1e3-1850da01f7e6
-						</p>
 						<p>
 							I've built products for <Strong>dozens of businesses</Strong> ranging from marketing
 							websites to complex apps with focus on fast, elegant and accessible user experiences. I can
